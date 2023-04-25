@@ -1,11 +1,11 @@
 # OktaScripts
-Okta Scriptt
+Okta Script
 
 Hey, 
 
 To run both scripts you will see to variables that will need you Okta domain and Okta API token
 
-In Okta Deactivation script you will need to enter you details below and amend
+In Okta Deactivation script you will need to enter your Okta Credential details below
 
 $apiKey = "ADD YOUR OKTA API TOKEN"
 $userID = "ADD THE USERNAME OF THE USER YOU WANT TO DEACTIVATE"
