@@ -8,7 +8,7 @@ To run both scripts you will see to variables that will need you Okta domain and
 In Okta Deactivation script you will need to enter you details below and amend
 
 $apiKey = "ADD YOUR OKTA API TOKEN"
-$userID = "ADD USERS USERNAME YOU WANT TO DEACTIVATE"
+$userID = "ADD THE USERNAME OF THE USER YOU WANT TO DEACTIVATE"
 
 $url = "https://ADD-YOUR-OKTA-DOMAIN/api/v1/users/$userID/lifecycle/deactivate"
 
