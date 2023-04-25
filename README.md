@@ -1,9 +1,9 @@
-# OktaScripts
-Okta Script
+# Okta Scripts
+Okta Scripts
 
 Hey, 
 
-To run both scripts you will see to variables that will need you Okta domain and Okta API token
+To run both scripts you will need to amend the variable to your own Okta domain and Okta API token
 
 In Okta Deactivation script you will need to enter your Okta Credential details below
 
@@ -12,10 +12,10 @@ $userID = "ADD THE USERNAME OF THE USER YOU WANT TO DEACTIVATE"
 
 $url = "https://ADD-YOUR-OKTA-DOMAIN/api/v1/users/$userID/lifecycle/deactivate"
 
-You may notice that the script will run please check okta it will deactivate the account. This has been test a few times on my own dev account
+You may notice that the script will run, please check okta it should've deactivated the account. This has been test a few times on my own dev account
 
 
-For the Okta Create user you will need to add the below information
+For the Okta Create user script you will need to add the below information
 
 
 $apiKey = "ADD YOUR OKTA API TOKEN"
